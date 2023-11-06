@@ -1,39 +1,58 @@
 export const projects = [
   {
-    title: "Project 1",
+    title: "Victory dashboard",
     subtitle: "Project1",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius? Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    image: "./victory-dashboard.gif",
     link: "https://reactbootcamp.com",
     code: "code",
+    technologies: [
+      "./msw-icon.svg",
+      "./next-icon.svg",
+      "./typescript.svg",
+      "./form.svg",
+      "./react-query.svg",
+      "auth0.svg",
+    ],
   },
   {
-    title: "Project 2",
+    title: "Chat GPT - clone",
     subtitle: "Project2",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius? Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    image: "./chat-gpt.gif",
     link: "https://reactbootcamp.com",
     code: "code",
+    technologies: [
+      "./msw-icon.svg",
+      "./victory-icon.svg",
+      "./storybook-icon.svg",
+      "./material-ui-1.svg",
+      "./mongodb.svg",
+      "./tailwindcss.svg",
+      "./logoreact.png",
+    ],
   },
   {
-    title: "Project 3",
+    title: "Book shelf App",
     subtitle: "Project3",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
+    image: "./chat-gpt.gif",
     link: "https://reactbootcamp.com",
     code: "code",
+    technologies: ["../icons/msw-icon.svg"],
   },
   {
-    title: "Project 4",
+    title: "This portfolio website",
     subtitle: "Project4",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
+    image: "./chat-gpt.gif",
     link: "https://reactbootcamp.com",
     code: "code",
+    technologies: ["../icons/msw-icon.svg", "../icons/victory-icon.svg"],
   },
 ];
 
@@ -55,10 +74,20 @@ export const testimonials = [
 ];
 
 export const skills = [
-  "JavaScript",
-  "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
+  { icon: "./msw-icon.svg", tech: "JavaScript" },
+  { icon: "./msw-icon.svg", tech: "JavaScript" },
+  { icon: "./msw-icon.svg", tech: "JavaScript" },
+  // "Node",
+  // "GraphQL",
+  // "Material UI",
+];
+
+export const icons = [
+  "./msw-icon.svg",
+  "./victory-icon.svg",
+  "./storybook-icon.svg",
+  "./material-ui-1.svg",
+  "./mongodb.svg",
+  "./tailwindcss.svg",
+  "./logoreact.png",
 ];
