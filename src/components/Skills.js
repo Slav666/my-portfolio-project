@@ -1,4 +1,4 @@
-import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
+import { ChipIcon } from "@heroicons/react/solid";
 import React from "react";
 import { skills, icons } from "../data";
 
@@ -26,7 +26,6 @@ export default function Skills() {
                   alt="icon"
                   style={{ width: "30px", height: "30px" }}
                 />
-                {/* <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" /> */}
                 <span className="title-font font-medium text-white">
                   {skill.tech}
                 </span>
