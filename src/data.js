@@ -74,9 +74,22 @@ export const testimonials = [
 ];
 
 export const skills = [
-  { icon: "./msw-icon.svg", tech: "JavaScript" },
-  { icon: "./msw-icon.svg", tech: "JavaScript" },
-  { icon: "./msw-icon.svg", tech: "JavaScript" },
+  { icon: "./logo-javascript.svg", tech: "JavaScript" },
+  { icon: "./logoreact.png", tech: "React" },
+  { icon: "./msw-icon.svg", tech: "CSS3" },
+  { icon: "./material-ui-1.svg", tech: "Material UI" },
+  { icon: "./typescript.svg", tech: "Typescript" },
+  { icon: "./python-3.svg", tech: "Python" },
+  { icon: "./django.svg", tech: "Django" },
+  { icon: "./storybook-icon.svg", tech: "StoryBook" },
+  { icon: "./jest-js-icon.svg", tech: "Unit Test" },
+  { icon: "./cucumberio-icon.svg", tech: "End-to-End Tests" },
+  { icon: "./victory-icon.svg", tech: "Victory" },
+  { icon: "./git-icon.svg", tech: "git" },
+  { icon: "./github-icon.svg", tech: "github" },
+  { icon: "./redux-logo.svg", tech: "Redux" },
+  { icon: "./msw-icon.svg", tech: "Mock Service Worker" },
+
   // "Node",
   // "GraphQL",
   // "Material UI",
