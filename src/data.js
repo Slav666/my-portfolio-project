@@ -59,15 +59,15 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
+      "One of Slawomir's standout qualities is his dedication to continuous learning. He is always eager to stay updated with the latest industry trends and technologies, which reflects in the quality of his work. Slawomir is a strong team player, always willing to lend a hand and collaborate with others to achieve project goals.",
+    image: "./Rory.jpeg",
     name: "Rory",
     company: "Astrosat",
   },
   {
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
+      "Slawomir is adaptable and quick to learn new technologies. He is not afraid to step outside his comfort zone to take on new challenges, which makes him an asset to any development team.",
+    image: "./Steven.jpeg",
     name: "Steven",
     company: "Astrosat",
   },
@@ -76,7 +76,7 @@ export const testimonials = [
 export const skills = [
   { icon: "./logo-javascript.svg", tech: "JavaScript" },
   { icon: "./logoreact.png", tech: "React" },
-  { icon: "./msw-icon.svg", tech: "CSS3" },
+  { icon: "./css3-icon.svg", tech: "CSS3" },
   { icon: "./material-ui-1.svg", tech: "Material UI" },
   { icon: "./typescript.svg", tech: "Typescript" },
   { icon: "./python-3.svg", tech: "Python" },
@@ -85,11 +85,20 @@ export const skills = [
   { icon: "./jest-js-icon.svg", tech: "Unit Test" },
   { icon: "./cucumberio-icon.svg", tech: "End-to-End Tests" },
   { icon: "./victory-icon.svg", tech: "Victory" },
-  { icon: "./git-icon.svg", tech: "git" },
-  { icon: "./github-icon.svg", tech: "github" },
+  { icon: "./git-icon.svg", tech: "Git" },
+  { icon: "./github-icon.svg", tech: "Github" },
   { icon: "./redux-logo.svg", tech: "Redux" },
   { icon: "./msw-icon.svg", tech: "Mock Service Worker" },
-
+  { icon: "./react-testing-library-icon.svg", tech: "React Testing Library" },
+  { icon: "./java-icon.svg", tech: "Java" },
+  { icon: "./mochajs-icon.svg", tech: "Mocha" },
+  { icon: "./nodejs-icon.svg", tech: "Node JS" },
+  { icon: "./sinatra-icon.svg", tech: "Sinatra" },
+  { icon: "./spring-icon.svg", tech: "Spring" },
+  { icon: "./sql-database-icon.svg", tech: "SQL - Data Base" },
+  { icon: "./html-icon.svg", tech: "HTML5" },
+  { icon: "./netlify.svg", tech: "Netlify" },
+  { icon: "./gatsbyjs-icon.svg", tech: "Gatsby" },
   // "Node",
   // "GraphQL",
   // "Material UI",
