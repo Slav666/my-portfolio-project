@@ -28,31 +28,32 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <form
-          name="contact"
-          className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
-        >
-          <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
+        <div className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 bg-gray-500 text-center">
+          <h2 className="sm:text-4xl text-3xl mb-1 font-medium title-font ">
             Hire Me
           </h2>
           <p className="leading-relaxed mb-5">
-            You can contact me via LinkedIn or email, or from right here in the
-            contact form. I look forward to hearing from you. You can contact me
-            via LinkedIn or email, or from right here in the contact form. I
-            look forward to hearing from you. You can contact me via LinkedIn or
-            email, or from right here in the contact form. I look forward to
-            hearing from you.
+            I look forward to hearing from you. You can contact me via LinkedIn,
+            email or phone.
           </p>
           <div className="relative mb-4">
-            <a href="mailto:slawomirdyk@gmail.com">Send Email</a>
-          </div>
-          <div className="relative mb-4">
-            <a href="https://www.linkedin.com/in/slawomir-dyk-b35ab1177/">
-              Send me message by link
+            <a
+              href="mailto:slawomirdyk@gmail.com"
+              className="bg-blue-400 rounded-full p-2 inline-block"
+            >
+              Send Email
             </a>
           </div>
-          <div className="relative mb-4">My phone number: 94949499494</div>
-        </form>
+          <div className="relative mb-4">
+            <a
+              href="https://www.linkedin.com/in/slawomir-dyk-b35ab1177/"
+              className="bg-blue-400 rounded-full p-2 inline-block"
+            >
+              Send me a message by LinkedIn
+            </a>
+          </div>
+          <div className="relative mb-4">My Phone Number: 07562760261</div>
+        </div>
       </div>
     </section>
   );
