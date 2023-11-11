@@ -1,58 +1,63 @@
 export const projects = [
   {
     title: "Victory dashboard",
-    subtitle: "Project1",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius? Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "This was a feature that I Astrosat front-end team was asked to do.The client had asked for a lot of functionality, and the data shapes from their APIs were fixed, which required the development of many custom transformer functions to map the data to the formats demanded by Victory, the charting library we chose to use.`Originally this project was in javascript but the purpose of myyy",
     image: "./victory-dashboard.gif",
     link: "https://reactbootcamp.com",
     code: "code",
+    liveApp: "LiveApp",
     technologies: [
       "./msw-icon.svg",
-      "./next-icon.svg",
       "./typescript.svg",
       "./form.svg",
-      "./react-query.svg",
-      "auth0.svg",
+      "./victory-icon.svg",
     ],
   },
   {
     title: "Chat GPT - clone",
-    subtitle: "Project2",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius? Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "This is a chat gpt clone. When building this application, I wanted to expand my knowledge of Mongo db and Auth0.",
     image: "./chat-gpt.gif",
     link: "https://reactbootcamp.com",
     code: "code",
+    liveApp: "LiveApp",
     technologies: [
-      "./msw-icon.svg",
-      "./victory-icon.svg",
-      "./storybook-icon.svg",
-      "./material-ui-1.svg",
+      "./next-icon.svg",
       "./mongodb.svg",
+      "./auth0.svg",
       "./tailwindcss.svg",
-      "./logoreact.png",
     ],
   },
   {
     title: "Book shelf App",
-    subtitle: "Project3",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "This is a simple bookshelf app. Users can register, log in, search for some books add them as reading books, and then can move to the reed books shelf or remove them. The purpose of this app was to learn to react query and try to use this library in a new Astrosat project.",
     image: "./chat-gpt.gif",
     link: "https://reactbootcamp.com",
     code: "code",
-    technologies: ["../icons/msw-icon.svg"],
+    liveApp: "LiveApp",
+    technologies: [
+      "./msw-icon.svg",
+      "./tailwindcss.svg",
+      "./logoreact.png",
+      "./form.svg",
+      "./react-query.svg",
+    ],
   },
   {
     title: "This portfolio website",
-    subtitle: "Project4",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./chat-gpt.gif",
     link: "https://reactbootcamp.com",
     code: "code",
-    technologies: ["../icons/msw-icon.svg", "../icons/victory-icon.svg"],
+    liveApp: "LiveApp",
+    technologies: [
+      "./logoreact.png",
+      "./tailwindcss.svg",
+      "./logo-javascript.svg",
+    ],
   },
 ];
 
@@ -90,26 +95,17 @@ export const skills = [
   { icon: "./redux-logo.svg", tech: "Redux" },
   { icon: "./msw-icon.svg", tech: "Mock Service Worker" },
   { icon: "./react-testing-library-icon.svg", tech: "React Testing Library" },
+  { icon: "./html-icon.svg", tech: "HTML5" },
+  { icon: "./netlify.svg", tech: "Netlify" },
+  { icon: "./gatsbyjs-icon.svg", tech: "Gatsby" },
+  { icon: "./deck-gl-logo.png", tech: "DeckGL" },
+];
+
+export const skillsCodeClan = [
   { icon: "./java-icon.svg", tech: "Java" },
   { icon: "./mochajs-icon.svg", tech: "Mocha" },
   { icon: "./nodejs-icon.svg", tech: "Node JS" },
   { icon: "./sinatra-icon.svg", tech: "Sinatra" },
   { icon: "./spring-icon.svg", tech: "Spring" },
   { icon: "./sql-database-icon.svg", tech: "SQL - Data Base" },
-  { icon: "./html-icon.svg", tech: "HTML5" },
-  { icon: "./netlify.svg", tech: "Netlify" },
-  { icon: "./gatsbyjs-icon.svg", tech: "Gatsby" },
-  // "Node",
-  // "GraphQL",
-  // "Material UI",
-];
-
-export const icons = [
-  "./msw-icon.svg",
-  "./victory-icon.svg",
-  "./storybook-icon.svg",
-  "./material-ui-1.svg",
-  "./mongodb.svg",
-  "./tailwindcss.svg",
-  "./logoreact.png",
 ];
