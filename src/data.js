@@ -17,7 +17,7 @@ export const projects = [
   {
     title: "Chat GPT - clone",
     description:
-      "This is a chat gpt clone. When building this application, I wanted to expand my knowledge of Mongo db and Auth0.",
+      "This application incorporates a user account system seamlessly integrated with Auth0. Upon logging in, users encounter a user interface strikingly similar to the original ChatGPT, where they can access a list of previous chats and initiate new conversations. In the central part of the application, users can pose questions and receive responses from OpenAI, with all information stored using MongoDB.",
     image: "./chat-gpt.gif",
     link: "https://reactbootcamp.com",
     code: "code",
@@ -32,7 +32,7 @@ export const projects = [
   {
     title: "Book shelf App",
     description:
-      "This is a simple bookshelf app. Users can register, log in, search for some books add them as reading books, and then can move to the reed books shelf or remove them. The purpose of this app was to learn to react query and try to use this library in a new Astrosat project.",
+      "This app serves as a straightforward bookshelf application, allowing users to register, log in, search for books, add them to their reading list, and subsequently move them to the 'read books' shelf or remove them altogether. The primary goal of developing this app was to acquire proficiency in React Query and explore its integration within a new Astrosat project.",
     image: "./chat-gpt.gif",
     link: "https://reactbootcamp.com",
     code: "code",
@@ -48,7 +48,7 @@ export const projects = [
   {
     title: "This portfolio website",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "This portfolio website comprises six main sections: a navigation bar, details about myself, a list of projects I have previously worked on, a compilation of the technologies I have experience with, testimonials, and contact information. The primary objective of developing this application was to enhance my knowledge of Tailwind CSS.",
     image: "./chat-gpt.gif",
     link: "https://reactbootcamp.com",
     code: "code",
